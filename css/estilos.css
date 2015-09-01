@@ -1,0 +1,3126 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600,800);
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 9, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+html {
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+/* line 19, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 45, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 57, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+audio, canvas, progress, video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 67, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 78, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+[hidden], template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 89, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 98, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+a:active, a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 109, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 118, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+b, strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 126, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 144, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 153, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 162, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 169, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+sup {
+  top: -0.5em; }
+
+/* line 173, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 184, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 192, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 211, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 221, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 232, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 256, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+button, input, optgroup, select, textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 266, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 278, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+button, select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 293, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 303, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+button[disabled], html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 312, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 322, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 335, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 347, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 357, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 371, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 390, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 399, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 408, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 419, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 425, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/normalize */
+td, th {
+  padding: 0; }
+
+/* line 4, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/base */
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+/* line 10, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/base */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+/* line 17, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/base */
+img {
+  max-width: 100%;
+  height: auto; }
+
+/*
+	GRUPOS Y CAJAS
+	==============
+	Los grupos son contenedores para las cajas.
+	Las cajas crean las divisiones en el grupo (columnas)
+*/
+/* line 7, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+.grupo {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%; }
+  /* line 13, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .grupo.total {
+    max-width: 100% !important; }
+  /* line 18, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .grupo:before, .grupo:after {
+    content: "";
+    display: table;
+    width: 100%;
+    clear: both; }
+  /* line 25, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .grupo .caja {
+    float: left;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%; }
+    /* line 32, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+    .grupo .caja:last-child {
+      float: right; }
+  /* line 37, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .grupo .caja.total {
+    float: none;
+    width: 100%; }
+    /* line 42, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+    .grupo .caja.total:before, .grupo .caja.total:after {
+      content: "";
+      display: table;
+      width: 100%;
+      clear: both; }
+
+/*base: A partir de 320px*/
+@media all and (min-width: 320px) {
+  /*Tamaños en porcentajes*/
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-5, .grupo .caja.base-5 {
+    width: 5%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-10, .grupo .caja.base-10 {
+    width: 10%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-15, .grupo .caja.base-15 {
+    width: 15%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-20, .grupo .caja.base-20 {
+    width: 20%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-25, .grupo .caja.base-25 {
+    width: 25%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-30, .grupo .caja.base-30 {
+    width: 30%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-35, .grupo .caja.base-35 {
+    width: 35%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-40, .grupo .caja.base-40 {
+    width: 40%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-45, .grupo .caja.base-45 {
+    width: 45%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-50, .grupo .caja.base-50 {
+    width: 50%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-55, .grupo .caja.base-55 {
+    width: 55%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-60, .grupo .caja.base-60 {
+    width: 60%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-65, .grupo .caja.base-65 {
+    width: 65%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-70, .grupo .caja.base-70 {
+    width: 70%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-75, .grupo .caja.base-75 {
+    width: 75%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-80, .grupo .caja.base-80 {
+    width: 80%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-85, .grupo .caja.base-85 {
+    width: 85%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-90, .grupo .caja.base-90 {
+    width: 90%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-95, .grupo .caja.base-95 {
+    width: 95%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-100, .grupo .caja.base-100 {
+    width: 100%; }
+
+  /*Tamaño en fracciones*/
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-1-3, .grupo .caja.base-1-3 {
+    width: 33.333333333%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-2-3, .grupo .caja.base-2-3 {
+    width: 66.666666667%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-3-3, .grupo .caja.base-3-3 {
+    width: 100%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-1-6, .grupo .caja.base-1-6 {
+    width: 16.666666667%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-2-6, .grupo .caja.base-2-6 {
+    width: 33.333333333%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-3-6, .grupo .caja.base-3-6 {
+    width: 50%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-4-6, .grupo .caja.base-4-6 {
+    width: 66.666666667%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-5-6, .grupo .caja.base-5-6 {
+    width: 83.333333333%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-6-6, .grupo .caja.base-6-6 {
+    width: 100%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-1-8, .grupo .caja.base-1-8 {
+    width: 12.5%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-2-8, .grupo .caja.base-2-8 {
+    width: 25%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-3-8, .grupo .caja.base-3-8 {
+    width: 37.5%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-4-8, .grupo .caja.base-4-8 {
+    width: 50%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-5-8, .grupo .caja.base-5-8 {
+    width: 62.5%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-6-8, .grupo .caja.base-6-8 {
+    width: 75%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-7-8, .grupo .caja.base-7-8 {
+    width: 87.5%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .base-8-8, .grupo .caja.base-8-8 {
+    width: 100%; }
+ }
+
+/*movil: A partir de 480px*/
+@media all and (min-width: 480px) {
+  /*Tamaños en porcentajes*/
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-5, .grupo .caja.movil-5 {
+    width: 5%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-10, .grupo .caja.movil-10 {
+    width: 10%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-15, .grupo .caja.movil-15 {
+    width: 15%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-20, .grupo .caja.movil-20 {
+    width: 20%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-25, .grupo .caja.movil-25 {
+    width: 25%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-30, .grupo .caja.movil-30 {
+    width: 30%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-35, .grupo .caja.movil-35 {
+    width: 35%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-40, .grupo .caja.movil-40 {
+    width: 40%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-45, .grupo .caja.movil-45 {
+    width: 45%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-50, .grupo .caja.movil-50 {
+    width: 50%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-55, .grupo .caja.movil-55 {
+    width: 55%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-60, .grupo .caja.movil-60 {
+    width: 60%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-65, .grupo .caja.movil-65 {
+    width: 65%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-70, .grupo .caja.movil-70 {
+    width: 70%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-75, .grupo .caja.movil-75 {
+    width: 75%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-80, .grupo .caja.movil-80 {
+    width: 80%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-85, .grupo .caja.movil-85 {
+    width: 85%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-90, .grupo .caja.movil-90 {
+    width: 90%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-95, .grupo .caja.movil-95 {
+    width: 95%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-100, .grupo .caja.movil-100 {
+    width: 100%; }
+
+  /*Tamaño en fracciones*/
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-1-3, .grupo .caja.movil-1-3 {
+    width: 33.333333333%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-2-3, .grupo .caja.movil-2-3 {
+    width: 66.666666667%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-3-3, .grupo .caja.movil-3-3 {
+    width: 100%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-1-6, .grupo .caja.movil-1-6 {
+    width: 16.666666667%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-2-6, .grupo .caja.movil-2-6 {
+    width: 33.333333333%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-3-6, .grupo .caja.movil-3-6 {
+    width: 50%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-4-6, .grupo .caja.movil-4-6 {
+    width: 66.666666667%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-5-6, .grupo .caja.movil-5-6 {
+    width: 83.333333333%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-6-6, .grupo .caja.movil-6-6 {
+    width: 100%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-1-8, .grupo .caja.movil-1-8 {
+    width: 12.5%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-2-8, .grupo .caja.movil-2-8 {
+    width: 25%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-3-8, .grupo .caja.movil-3-8 {
+    width: 37.5%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-4-8, .grupo .caja.movil-4-8 {
+    width: 50%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-5-8, .grupo .caja.movil-5-8 {
+    width: 62.5%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-6-8, .grupo .caja.movil-6-8 {
+    width: 75%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-7-8, .grupo .caja.movil-7-8 {
+    width: 87.5%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .movil-8-8, .grupo .caja.movil-8-8 {
+    width: 100%; }
+ }
+
+/*tablet: A partir de 768px*/
+@media all and (min-width: 768px) {
+  /*Tamaños en porcentajes*/
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-5, .grupo .caja.tablet-5 {
+    width: 5%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-10, .grupo .caja.tablet-10 {
+    width: 10%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-15, .grupo .caja.tablet-15 {
+    width: 15%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-20, .grupo .caja.tablet-20 {
+    width: 20%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-25, .grupo .caja.tablet-25 {
+    width: 25%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-30, .grupo .caja.tablet-30 {
+    width: 30%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-35, .grupo .caja.tablet-35 {
+    width: 35%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-40, .grupo .caja.tablet-40 {
+    width: 40%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-45, .grupo .caja.tablet-45 {
+    width: 45%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-50, .grupo .caja.tablet-50 {
+    width: 50%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-55, .grupo .caja.tablet-55 {
+    width: 55%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-60, .grupo .caja.tablet-60 {
+    width: 60%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-65, .grupo .caja.tablet-65 {
+    width: 65%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-70, .grupo .caja.tablet-70 {
+    width: 70%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-75, .grupo .caja.tablet-75 {
+    width: 75%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-80, .grupo .caja.tablet-80 {
+    width: 80%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-85, .grupo .caja.tablet-85 {
+    width: 85%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-90, .grupo .caja.tablet-90 {
+    width: 90%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-95, .grupo .caja.tablet-95 {
+    width: 95%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-100, .grupo .caja.tablet-100 {
+    width: 100%; }
+
+  /*Tamaño en fracciones*/
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-1-3, .grupo .caja.tablet-1-3 {
+    width: 33.333333333%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-2-3, .grupo .caja.tablet-2-3 {
+    width: 66.666666667%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-3-3, .grupo .caja.tablet-3-3 {
+    width: 100%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-1-6, .grupo .caja.tablet-1-6 {
+    width: 16.666666667%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-2-6, .grupo .caja.tablet-2-6 {
+    width: 33.333333333%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-3-6, .grupo .caja.tablet-3-6 {
+    width: 50%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-4-6, .grupo .caja.tablet-4-6 {
+    width: 66.666666667%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-5-6, .grupo .caja.tablet-5-6 {
+    width: 83.333333333%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-6-6, .grupo .caja.tablet-6-6 {
+    width: 100%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-1-8, .grupo .caja.tablet-1-8 {
+    width: 12.5%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-2-8, .grupo .caja.tablet-2-8 {
+    width: 25%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-3-8, .grupo .caja.tablet-3-8 {
+    width: 37.5%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-4-8, .grupo .caja.tablet-4-8 {
+    width: 50%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-5-8, .grupo .caja.tablet-5-8 {
+    width: 62.5%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-6-8, .grupo .caja.tablet-6-8 {
+    width: 75%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-7-8, .grupo .caja.tablet-7-8 {
+    width: 87.5%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .tablet-8-8, .grupo .caja.tablet-8-8 {
+    width: 100%; }
+ }
+
+/*web: A partir de 1025px*/
+@media all and (min-width: 1025px) {
+  /*Tamaños en porcentajes*/
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-5, .grupo .caja.web-5 {
+    width: 5%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-10, .grupo .caja.web-10 {
+    width: 10%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-15, .grupo .caja.web-15 {
+    width: 15%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-20, .grupo .caja.web-20 {
+    width: 20%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-25, .grupo .caja.web-25 {
+    width: 25%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-30, .grupo .caja.web-30 {
+    width: 30%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-35, .grupo .caja.web-35 {
+    width: 35%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-40, .grupo .caja.web-40 {
+    width: 40%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-45, .grupo .caja.web-45 {
+    width: 45%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-50, .grupo .caja.web-50 {
+    width: 50%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-55, .grupo .caja.web-55 {
+    width: 55%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-60, .grupo .caja.web-60 {
+    width: 60%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-65, .grupo .caja.web-65 {
+    width: 65%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-70, .grupo .caja.web-70 {
+    width: 70%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-75, .grupo .caja.web-75 {
+    width: 75%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-80, .grupo .caja.web-80 {
+    width: 80%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-85, .grupo .caja.web-85 {
+    width: 85%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-90, .grupo .caja.web-90 {
+    width: 90%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-95, .grupo .caja.web-95 {
+    width: 95%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-100, .grupo .caja.web-100 {
+    width: 100%; }
+
+  /*Tamaño en fracciones*/
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-1-3, .grupo .caja.web-1-3 {
+    width: 33.333333333%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-2-3, .grupo .caja.web-2-3 {
+    width: 66.666666667%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-3-3, .grupo .caja.web-3-3 {
+    width: 100%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-1-6, .grupo .caja.web-1-6 {
+    width: 16.666666667%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-2-6, .grupo .caja.web-2-6 {
+    width: 33.333333333%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-3-6, .grupo .caja.web-3-6 {
+    width: 50%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-4-6, .grupo .caja.web-4-6 {
+    width: 66.666666667%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-5-6, .grupo .caja.web-5-6 {
+    width: 83.333333333%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-6-6, .grupo .caja.web-6-6 {
+    width: 100%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-1-8, .grupo .caja.web-1-8 {
+    width: 12.5%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-2-8, .grupo .caja.web-2-8 {
+    width: 25%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-3-8, .grupo .caja.web-3-8 {
+    width: 37.5%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-4-8, .grupo .caja.web-4-8 {
+    width: 50%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-5-8, .grupo .caja.web-5-8 {
+    width: 62.5%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-6-8, .grupo .caja.web-6-8 {
+    width: 75%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-7-8, .grupo .caja.web-7-8 {
+    width: 87.5%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .web-8-8, .grupo .caja.web-8-8 {
+    width: 100%; }
+ }
+
+/*hd: A partir de 1400px*/
+@media all and (min-width: 1400px) {
+  /*Tamaños en porcentajes*/
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-5, .grupo .caja.hd-5 {
+    width: 5%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-10, .grupo .caja.hd-10 {
+    width: 10%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-15, .grupo .caja.hd-15 {
+    width: 15%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-20, .grupo .caja.hd-20 {
+    width: 20%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-25, .grupo .caja.hd-25 {
+    width: 25%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-30, .grupo .caja.hd-30 {
+    width: 30%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-35, .grupo .caja.hd-35 {
+    width: 35%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-40, .grupo .caja.hd-40 {
+    width: 40%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-45, .grupo .caja.hd-45 {
+    width: 45%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-50, .grupo .caja.hd-50 {
+    width: 50%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-55, .grupo .caja.hd-55 {
+    width: 55%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-60, .grupo .caja.hd-60 {
+    width: 60%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-65, .grupo .caja.hd-65 {
+    width: 65%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-70, .grupo .caja.hd-70 {
+    width: 70%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-75, .grupo .caja.hd-75 {
+    width: 75%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-80, .grupo .caja.hd-80 {
+    width: 80%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-85, .grupo .caja.hd-85 {
+    width: 85%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-90, .grupo .caja.hd-90 {
+    width: 90%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-95, .grupo .caja.hd-95 {
+    width: 95%; }
+
+  /* line 58, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-100, .grupo .caja.hd-100 {
+    width: 100%; }
+
+  /*Tamaño en fracciones*/
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-1-3, .grupo .caja.hd-1-3 {
+    width: 33.333333333%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-2-3, .grupo .caja.hd-2-3 {
+    width: 66.666666667%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-3-3, .grupo .caja.hd-3-3 {
+    width: 100%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-1-6, .grupo .caja.hd-1-6 {
+    width: 16.666666667%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-2-6, .grupo .caja.hd-2-6 {
+    width: 33.333333333%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-3-6, .grupo .caja.hd-3-6 {
+    width: 50%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-4-6, .grupo .caja.hd-4-6 {
+    width: 66.666666667%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-5-6, .grupo .caja.hd-5-6 {
+    width: 83.333333333%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-6-6, .grupo .caja.hd-6-6 {
+    width: 100%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-1-8, .grupo .caja.hd-1-8 {
+    width: 12.5%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-2-8, .grupo .caja.hd-2-8 {
+    width: 25%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-3-8, .grupo .caja.hd-3-8 {
+    width: 37.5%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-4-8, .grupo .caja.hd-4-8 {
+    width: 50%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-5-8, .grupo .caja.hd-5-8 {
+    width: 62.5%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-6-8, .grupo .caja.hd-6-8 {
+    width: 75%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-7-8, .grupo .caja.hd-7-8 {
+    width: 87.5%; }
+
+  /* line 65, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/nucleo */
+  .hd-8-8, .grupo .caja.hd-8-8 {
+    width: 100%; }
+ }
+
+@media all and (min-width: 320px) {
+  /* line 4, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+  .grupo.base-tabla {
+    display: table; }
+    /* line 7, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+    .grupo.base-tabla > .caja {
+      float: none;
+      display: table-cell; }
+    /* line 12, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+    .grupo.base-tabla.medio > .caja {
+      vertical-align: middle; }
+    /* line 16, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+    .grupo.base-tabla.arriba > .caja {
+      vertical-align: top; }
+    /* line 20, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+    .grupo.base-tabla.abajo > .caja {
+      vertical-align: bottom; }
+ }
+
+@media all and (min-width: 480px) {
+  /* line 4, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+  .grupo.movil-tabla {
+    display: table; }
+    /* line 7, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+    .grupo.movil-tabla > .caja {
+      float: none;
+      display: table-cell; }
+    /* line 12, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+    .grupo.movil-tabla.medio > .caja {
+      vertical-align: middle; }
+    /* line 16, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+    .grupo.movil-tabla.arriba > .caja {
+      vertical-align: top; }
+    /* line 20, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+    .grupo.movil-tabla.abajo > .caja {
+      vertical-align: bottom; }
+ }
+
+@media all and (min-width: 768px) {
+  /* line 4, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+  .grupo.tablet-tabla {
+    display: table; }
+    /* line 7, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+    .grupo.tablet-tabla > .caja {
+      float: none;
+      display: table-cell; }
+    /* line 12, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+    .grupo.tablet-tabla.medio > .caja {
+      vertical-align: middle; }
+    /* line 16, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+    .grupo.tablet-tabla.arriba > .caja {
+      vertical-align: top; }
+    /* line 20, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+    .grupo.tablet-tabla.abajo > .caja {
+      vertical-align: bottom; }
+ }
+
+@media all and (min-width: 1025px) {
+  /* line 4, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+  .grupo.web-tabla {
+    display: table; }
+    /* line 7, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+    .grupo.web-tabla > .caja {
+      float: none;
+      display: table-cell; }
+    /* line 12, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+    .grupo.web-tabla.medio > .caja {
+      vertical-align: middle; }
+    /* line 16, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+    .grupo.web-tabla.arriba > .caja {
+      vertical-align: top; }
+    /* line 20, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+    .grupo.web-tabla.abajo > .caja {
+      vertical-align: bottom; }
+ }
+
+@media all and (min-width: 1400px) {
+  /* line 4, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+  .grupo.hd-tabla {
+    display: table; }
+    /* line 7, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+    .grupo.hd-tabla > .caja {
+      float: none;
+      display: table-cell; }
+    /* line 12, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+    .grupo.hd-tabla.medio > .caja {
+      vertical-align: middle; }
+    /* line 16, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+    .grupo.hd-tabla.arriba > .caja {
+      vertical-align: top; }
+    /* line 20, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+    .grupo.hd-tabla.abajo > .caja {
+      vertical-align: bottom; }
+ }
+
+/* line 27, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+.caja.medio {
+  vertical-align: middle; }
+
+/* line 31, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+.caja.arriba {
+  vertical-align: top; }
+
+/* line 35, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/tabla */
+.caja.abajo {
+  vertical-align: bottom; }
+
+/* 	ESTILOS PARA DESARROLLO
+	========================
+	Añada la clase "desarrollo"
+   	a body para tener ayudas al trabajar con ED GRID 
+*/
+/* line 7, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/desarrollo */
+body.desarrollo {
+  padding: 0 !important;
+  margin: 0 !important; }
+  /* line 10, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/desarrollo */
+  body.desarrollo:before {
+    background: steelblue;
+    /*Azul Escuela Digital*/
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 36px;
+    text-align: center;
+    display: block;
+    height: 36px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 900; }
+  /* line 30, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/desarrollo */
+  body.desarrollo .grupo {
+    padding-top: 22px;
+    margin-bottom: 10px;
+    outline: 1px solid tomato; }
+    /* line 37, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/desarrollo */
+    body.desarrollo .grupo .caja {
+      position: relative;
+      padding-bottom: 22px; }
+      /* line 43, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/desarrollo */
+      body.desarrollo .grupo .caja:nth-child(even) {
+        background: rgba(70, 130, 180, 0.2); }
+    /* line 47, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/desarrollo */
+    body.desarrollo .grupo .grupo {
+      margin-bottom: 0; }
+
+/* line 55, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/desarrollo */
+.desarrollo .grupo .caja:after, .desarrollo .grupo:before {
+  content: attr(class);
+  font-style: italic;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 0 5px;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  display: table;
+  width: 100%;
+  height: 22px;
+  line-height: 22px; }
+
+/* line 74, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/desarrollo */
+.desarrollo .grupo:before {
+  background: rgba(255, 99, 71, 0.3);
+  color: tomato;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+/* line 82, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/desarrollo */
+.desarrollo .caja:after {
+  background: rgba(70, 130, 180, 0.2);
+  color: steelblue; }
+
+/* line 87, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/desarrollo */
+.desarrollo .caja.total:after {
+  background: rgba(27, 50, 70, 0.3); }
+
+/* line 92, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/desarrollo */
+body.desarrollo:before {
+  content: "ED-GRID: Tamaño base"; }
+
+@media screen and (min-width: 320px) {
+  /* line 100, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/desarrollo */
+  body.desarrollo:before {
+    content: "ED-GRID: Tamaño base, desde 320px"; }
+ }
+
+@media screen and (min-width: 480px) {
+  /* line 100, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/desarrollo */
+  body.desarrollo:before {
+    content: "ED-GRID: Tamaño movil, desde 480px"; }
+ }
+
+@media screen and (min-width: 768px) {
+  /* line 100, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/desarrollo */
+  body.desarrollo:before {
+    content: "ED-GRID: Tamaño tablet, desde 768px"; }
+ }
+
+@media screen and (min-width: 1025px) {
+  /* line 100, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/desarrollo */
+  body.desarrollo:before {
+    content: "ED-GRID: Tamaño web, desde 1025px"; }
+ }
+
+@media screen and (min-width: 1400px) {
+  /* line 100, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/desarrollo */
+  body.desarrollo:before {
+    content: "ED-GRID: Tamaño hd, desde 1400px"; }
+ }
+
+/* line 107, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/desarrollo */
+.grupo.demostrar {
+  outline: 1px solid tomato;
+  margin: 1em auto; }
+  /* line 110, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/desarrollo */
+  .grupo.demostrar > .caja {
+    background: #eee;
+    box-shadow: 0 0 0 1px steelblue;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+    /* line 115, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/desarrollo */
+    .grupo.demostrar > .caja p {
+      margin-bottom: 0; }
+    /* line 118, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/desarrollo */
+    .grupo.demostrar > .caja:nth-child(odd) {
+      background: #ddd; }
+    /* line 121, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/desarrollo */
+    .grupo.demostrar > .caja.total {
+      background: #fff; }
+
+@media screen and (max-width: 319px) {
+  /* line 6, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/visibilidad */
+  .desde-base {
+    display: none !important; }
+ }
+
+@media screen and (max-width: 479px) {
+  /* line 6, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/visibilidad */
+  .desde-movil {
+    display: none !important; }
+ }
+
+@media screen and (max-width: 767px) {
+  /* line 6, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/visibilidad */
+  .desde-tablet {
+    display: none !important; }
+ }
+
+@media screen and (max-width: 1024px) {
+  /* line 6, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/visibilidad */
+  .desde-web {
+    display: none !important; }
+ }
+
+@media screen and (max-width: 1399px) {
+  /* line 6, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/visibilidad */
+  .desde-hd {
+    display: none !important; }
+ }
+
+@media screen and (min-width: 320px) {
+  /* line 25, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/visibilidad */
+  .hasta-base {
+    display: none !important; }
+ }
+
+@media screen and (min-width: 480px) {
+  /* line 25, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/visibilidad */
+  .hasta-movil {
+    display: none !important; }
+ }
+
+@media screen and (min-width: 768px) {
+  /* line 25, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/visibilidad */
+  .hasta-tablet {
+    display: none !important; }
+ }
+
+@media screen and (min-width: 1025px) {
+  /* line 25, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/visibilidad */
+  .hasta-web {
+    display: none !important; }
+ }
+
+@media screen and (min-width: 1400px) {
+  /* line 25, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/visibilidad */
+  .hasta-hd {
+    display: none !important; }
+ }
+
+/*
+	ESTILOS DE LAYOUT
+	==================
+*/
+/* line 5, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/utilidades */
+.centro, .centrar {
+  display: block;
+  clear: both;
+  float: none !important;
+  margin-right: auto !important;
+  margin-left: auto !important; }
+
+/* line 13, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/utilidades */
+.left, .izquierda {
+  float: left; }
+
+/* line 17, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/utilidades */
+.right, .derecha {
+  float: right; }
+
+/* line 21, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/utilidades */
+.total {
+  width: 100%;
+  clear: both; }
+
+/* line 28, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/utilidades */
+.centrar-texto, .centrar-contenido, .centro-contenido {
+  text-align: center; }
+
+/* line 33, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/utilidades */
+.izquierda-texto, .izquierda-contenido {
+  text-align: left; }
+
+/* line 38, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/utilidades */
+.derecha-texto, .derecha-contenido {
+  text-align: right; }
+
+/* line 42, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/utilidades */
+.circulo {
+  border-radius: 50%; }
+
+/* line 47, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/utilidades */
+.limpiar:before, .limpiar:after {
+  content: "";
+  display: table;
+  width: 100%;
+  clear: both; }
+
+/* 	NO PADDING
+	===========
+	class="no-padding" al grupo, le da padding cero a todas sus cajas.
+	class="no-padding" a la caja le da padding cero solo a ella
+*/
+/* line 61, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/utilidades */
+.no-padding.grupo > .caja, .caja.no-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+/* Controlar el padding*/
+/* line 67, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/utilidades */
+.padding {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+/* line 72, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/utilidades */
+.padding-2 {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+/* line 76, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/utilidades */
+.padding-3 {
+  padding-left: 45px;
+  padding-right: 45px; }
+
+/* line 83, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/utilidades */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  position: relative;
+  top: 0.15em;
+  display: inline-block; }
+
+/* line 89, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/utilidades */
+.espacio:before {
+  margin-right: 0.3em; }
+
+/* line 2, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/video */
+.ed-video {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative; }
+  /* line 10, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/video */
+  .ed-video > iframe, .ed-video > object, .ed-video > video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+@font-face {
+  font-family: "ed-grid";
+  src: url("../fonts/ed-grid.eot");
+  src: url("../fonts/ed-grid.eot?#iefix") format("embedded-opentype"), url("../fonts/ed-grid.woff") format("woff"), url("../fonts/ed-grid.ttf") format("truetype"), url("../fonts/ed-grid.svg#ed-grid") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 15, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+[data-icon]:before {
+  font-family: "ed-grid" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 29, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "ed-grid" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  display: inline-block;
+  position: relative;
+  top: 0.15em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 44, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.espacio:before {
+  margin-right: 0.3em; }
+
+/* line 48, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-youtube:before {
+  content: "a"; }
+
+/* line 51, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-twitter:before {
+  content: "b"; }
+
+/* line 54, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-facebook:before {
+  content: "c"; }
+
+/* line 57, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-linkedin:before {
+  content: "d"; }
+
+/* line 60, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-pinterest:before {
+  content: "e"; }
+
+/* line 63, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-instagram:before {
+  content: "f"; }
+
+/* line 66, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-rss:before {
+  content: "g"; }
+
+/* line 69, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-github:before {
+  content: "h"; }
+
+/* line 72, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-izquierda:before {
+  content: "i"; }
+
+/* line 75, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-derecha:before {
+  content: "j"; }
+
+/* line 78, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-arriba:before {
+  content: "k"; }
+
+/* line 81, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-abajo:before {
+  content: "l"; }
+
+/* line 84, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-triangulo-izquierda:before {
+  content: "m"; }
+
+/* line 87, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-triangulo-derecha:before {
+  content: "n"; }
+
+/* line 90, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-triangulo-arriba:before {
+  content: "p"; }
+
+/* line 93, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-aceptar:before {
+  content: "q"; }
+
+/* line 96, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-triangulo-abajo:before {
+  content: "o"; }
+
+/* line 99, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-telefono:before {
+  content: "r"; }
+
+/* line 102, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-android:before {
+  content: "s"; }
+
+/* line 105, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-apple:before {
+  content: "t"; }
+
+/* line 108, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-bitcoin:before {
+  content: "u"; }
+
+/* line 111, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-fecha:before {
+  content: "v"; }
+
+/* line 114, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-camara:before {
+  content: "w"; }
+
+/* line 117, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-tarjeta:before {
+  content: "x"; }
+
+/* line 120, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-pin:before {
+  content: "y"; }
+
+/* line 123, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-cerrar:before {
+  content: "z"; }
+
+/* line 126, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-whatsapp:before {
+  content: "A"; }
+
+/* line 129, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-vimeo:before {
+  content: "B"; }
+
+/* line 132, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-menu:before {
+  content: "C"; }
+
+/* line 135, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-menu-secundario:before {
+  content: "D"; }
+
+/* line 138, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-correo:before {
+  content: "E"; }
+
+/* line 141, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-ed:before {
+  content: "F"; }
+
+/* line 144, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-google-plus:before {
+  content: "G"; }
+
+/* line 147, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-carrito:before {
+  content: "H"; }
+
+/* line 150, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-usuario:before {
+  content: "I"; }
+
+/* line 153, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-enlace:before {
+  content: "J"; }
+
+/* line 156, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-portafolio:before {
+  content: "K"; }
+
+/* line 159, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-mastercard:before {
+  content: "L"; }
+
+/* line 162, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-paypal:before {
+  content: "M"; }
+
+/* line 165, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-visa:before {
+  content: "N"; }
+
+/* line 168, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/librerias/ed-grid/componentes/icon-fonts */
+.icon-buscar:before {
+  content: "O"; }
+
+/* line 2, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/base/base */
+body {
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+  color: #333; }
+
+/* line 8, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/base/base */
+a {
+  color: initial; }
+
+/* line 16, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/base/base */
+p, blockquote, li {
+  font-size: 1em;
+  line-height: 1.5; }
+
+/* line 21, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/base/base */
+p {
+  margin: 0 0 1em 0; }
+  /* line 25, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/base/base */
+  p:last-child, p:only-child {
+    margin: 0; }
+
+/* line 35, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/base/base */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: normal;
+  color: #222; }
+
+/* line 43, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/base/base */
+h1 {
+  font-size: 2em;
+  line-height: 1.2; }
+
+/* line 48, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/base/base */
+h2 {
+  font-size: 1.6em; }
+
+/* line 52, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/base/base */
+h3 {
+  font-size: 1.3em; }
+
+/* line 56, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/base/base */
+h4 {
+  font-size: 1em; }
+
+/* line 60, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/base/base */
+h5 {
+  font-size: 0.9em; }
+
+/* line 64, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/base/base */
+h6 {
+  font-size: 0.8em; }
+
+/* line 2, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+/* line 6, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+input[type=number] {
+  -moz-appearance: textfield; }
+
+/* line 13, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+.container--formulario {
+  width: 100%;
+  position: relative; }
+  /* line 19, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  .container--formulario input[type=email], .container--formulario input[type=name], .container--formulario input[type=number] {
+    background-color: #d7d7d7;
+    color: #8d8c8c;
+    position: relative; }
+  /* line 26, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  .container--formulario h2 {
+    text-align: center;
+    line-height: 1.2;
+    color: white;
+    margin: 0; }
+  /* line 32, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  .container--formulario .swich {
+    color: black; }
+    @media screen and (min-width: 1025px) {
+      .container--formulario .swich {
+        color: white; } }
+  /* line 39, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  .container--formulario span {
+    font-size: 1.5em;
+    margin-top: 0.5em; }
+  /* line 43, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  .container--formulario h6 {
+    margin: 0;
+    color: white;
+    font-weight: 300; }
+  @media screen and (min-width: 1025px) {
+    .container--formulario {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      width: 300px;
+      right: -1000%;
+      z-index: 999999; } }
+  @media screen and (min-width: 1400px) {
+    .container--formulario {
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -o-transform: translateX(-50%); } }
+
+/* line 68, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+.container--formulario__box {
+  width: 100%; }
+  /* line 72, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  .container--formulario__box h2 {
+    color: #ffffff;
+    width: 80%; }
+
+/* line 78, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+.container--formulario__box--flex {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background: #d83a40; }
+  /* line 86, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  .container--formulario__box--flex input {
+    width: 80%;
+    margin-bottom: 0.5em;
+    border: none;
+    padding: 0.8em;
+    margin: 0.5em;
+    border-radius: 5px; }
+    /* line 95, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+    .container--formulario__box--flex input:focus, .container--formulario__box--flex input:active {
+      border: none;
+      box-shadow: 2px 2px 10px #e5536d, -2px -2px 10px #e5536d; }
+  /* line 102, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  .container--formulario__box--flex button {
+    background: #323132;
+    border: none;
+    color: white;
+    width: 50%;
+    border-radius: 5px;
+    margin: 0.5em 0 1em 0;
+    padding: 0.5em;
+    font-size: 1.2em; }
+  /* line 112, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  .container--formulario__box--flex button:hover {
+    background: #3f3e3f; }
+  /* line 115, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  .container--formulario__box--flex h2 {
+    padding: 1.5em 0 0 0;
+    text-align: center;
+    line-height: 1.2;
+    font-size: 1.2em; }
+  /* line 121, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  .container--formulario__box--flex p {
+    text-align: center; }
+  /* line 124, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  .container--formulario__box--flex span {
+    font-weight: 200;
+    font-size: 1em; }
+  @media screen and (min-width: 1025px) {
+    .container--formulario__box--flex {
+      border-radius: 10px; } }
+
+/**
+*
+*
+*      ANGULAR
+*
+*
+*/
+/* line 144, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+input.ng-invalid.ng-dirty {
+  border: 2px solid #fa787e; }
+
+/* line 147, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+input.ng-valid.ng-dirty {
+  border: 2px solid #78fa89; }
+
+@-webkit-keyframes up {
+  /* line 152, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  10% {
+    opacity: 0.8;
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px); }
+
+  /* line 156, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  12% {
+    -webkit-transform: translateX(5px);
+            transform: translateX(5px); }
+
+  /* line 159, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  24% {
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px); }
+
+  /* line 162, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  48% {
+    -webkit-transform: translateX(5px);
+            transform: translateX(5px); }
+
+  /* line 165, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px); } }
+
+@keyframes up {
+  /* line 152, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  10% {
+    opacity: 0.8;
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px); }
+
+  /* line 156, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  12% {
+    -webkit-transform: translateX(5px);
+            transform: translateX(5px); }
+
+  /* line 159, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  24% {
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px); }
+
+  /* line 162, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  48% {
+    -webkit-transform: translateX(5px);
+            transform: translateX(5px); }
+
+  /* line 165, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px); } }
+
+/* line 170, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+.error {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0; }
+
+/* line 177, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+.error2 {
+  position: absolute;
+  width: 100%; }
+
+/* line 181, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+.error1 {
+  position: relative;
+  width: 100%; }
+
+/* line 185, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+.error2 > ul > li {
+  position: absolute;
+  background: red;
+  padding: 0.8rem;
+  left: -10em;
+  color: white;
+  font-weight: 0;
+  font-size: 1em;
+  text-align: center;
+  -webkit-animation: up 1s ease-in-out 1 backwards;
+          animation: up 1s ease-in-out 1 backwards;
+  list-style: none;
+  z-index: 9999; }
+
+/* line 198, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+.error > ul > li {
+  position: absolute;
+  background: red;
+  padding: 0.8rem;
+  left: 20em;
+  color: white;
+  font-weight: 0;
+  font-size: 1em;
+  text-align: center;
+  -webkit-animation: up 1s ease-in-out 1 backwards;
+          animation: up 1s ease-in-out 1 backwards;
+  list-style: none;
+  z-index: 9999; }
+
+/* line 211, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/formularios */
+.error1 > ul > li {
+  position: absolute;
+  right: 0;
+  top: -110px;
+  background: red;
+  padding: 0.8rem;
+  color: white;
+  font-weight: 0;
+  font-size: 1em;
+  text-align: center;
+  -webkit-animation: up 1s ease-in-out 1 backwards;
+          animation: up 1s ease-in-out 1 backwards;
+  list-style: none; }
+
+/* line 1, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/header */
+.max-container {
+  width: 100vw;
+  min-height: 100vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow-x: hidden;
+  background: #ffffff;
+  font-family: Arial, sans-serif; }
+
+/* line 12, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/header */
+.content {
+  margin: 0 auto;
+  text-align: center;
+  z-index: 10;
+  width: 100%;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%); }
+  /* line 24, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/header */
+  .content h1 {
+    font-size: 3em;
+    font-family: 'flanders_art_sansbold', Arial, sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px black, -1px -1px 10px black; }
+    @media screen and (min-width: 1025px) {
+      .content h1 {
+        text-shadow: none;
+        font-size: 4rem;
+        color: #636363; } }
+
+/* line 38, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/header */
+.container {
+  max-width: 1200px;
+  width: 100%;
+  position: relative; }
+
+/* line 43, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/header */
+.container--img {
+  width: 100%;
+  position: relative;
+  background-size: 100%;
+  background-position: 35% 0%;
+  background-attachment: fixed;
+  background-image: url(../img/header1.jpg);
+  background-repeat: no-repeat; }
+  /* line 51, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/header */
+  .container--img img {
+    max-width: 100% !important;
+    height: auto; }
+  @media screen and (min-width: 768px) {
+    .container--img {
+      background-image: url(../img/header2.jpg);
+      background-size: cover; } }
+  @media screen and (min-width: 1025px) {
+    .container--img {
+      background-image: url(../img/headerX.jpg);
+      background-size: cover; } }
+
+/* line 71, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/header */
+.cabecera {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  background: #242c2e;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  left: 0; }
+  /* line 81, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/header */
+  .cabecera--container {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 1179px;
+    position: relative;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    /* line 94, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/header */
+    .cabecera--container .fb-like {
+      position: relative;
+      left: 0.2em;
+      top: 0;
+      bottom: 0; }
+      @media screen and (min-width: 1025px) {
+        .cabecera--container .fb-like {
+          left: 2rem; } }
+    /* line 106, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/header */
+    .cabecera--container .logo, .cabecera--container .logo2 {
+      height: 80px;
+      width: auto;
+      -webkit-align-self: center;
+          -ms-flex-item-align: center;
+              align-self: center;
+      background: #d83a40;
+      padding: 0.8em;
+      box-shadow: inset 0px 10px 0.8em #9d1a1a; }
+    /* line 114, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/header */
+    .cabecera--container .logo2 {
+      background: none;
+      box-shadow: none;
+      padding: 0; }
+
+/* line 122, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/header */
+.cabecera h2 {
+  color: #656666;
+  text-decoration: underline;
+  font-weight: 600; }
+
+/* line 128, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/header */
+.este-icon {
+  background: white;
+  color: #242c2e;
+  padding: 0 0.2em;
+  border-radius: 6px;
+  font-size: 1.2em;
+  margin: 0 0.6em; }
+  /* line 136, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/header */
+  .este-icon:hover {
+    background: #656666; }
+
+/*
+*
+*
+*
+*
+*					PASOS
+*
+*
+*
+*
+*/
+/* line 13, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+.container--pasos {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  padding: 1.5em 1.5em 0 1.5em;
+  width: 100%;
+  position: relative;
+  top: 0; }
+  /* line 24, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--pasos h2 {
+    margin-top: 0;
+    color: white;
+    text-align: center; }
+  /* line 29, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--pasos h5 {
+    text-align: center;
+    color: white; }
+  /* line 33, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--pasos p {
+    text-align: center; }
+  /* line 39, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--pasos__5 h2 {
+    font-weight: 300;
+    font-size: 1.6em;
+    color: #7d7d7d;
+    background: #ffffff;
+    padding: 0.5em 1em;
+    border-bottom: 2px solid #d94041; }
+    /* line 47, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--pasos__5 h2 span {
+      font-size: 0.6em;
+      position: relative;
+      top: -20px; }
+    @media screen and (min-width: 768px) {
+      .container--pasos__5 h2 {
+        font-size: 2.5rem; } }
+  /* line 57, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--pasos__5 p {
+    color: #7d7d7d; }
+  /* line 62, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--pasos__6 {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    width: 100%;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    -webkit-align-items: strech;
+        -ms-flex-align: strech;
+            align-items: strech; }
+    /* line 69, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--pasos__6 .parrafo {
+      margin-top: 0.6em;
+      width: 100%;
+      padding: 0 1em;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      -webkit-flex-flow: column nowrap;
+          -ms-flex-flow: column nowrap;
+              flex-flow: column nowrap; }
+      /* line 77, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+      .container--pasos__6 .parrafo h3 {
+        font-weight: 300;
+        color: #7d7d7d;
+        background: #ffffff;
+        padding: 0.5em 0;
+        font-size: 0.8em; }
+        /* line 84, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+        .container--pasos__6 .parrafo h3 span {
+          font-size: 0.6em;
+          position: relative;
+          top: -10px; }
+        @media screen and (min-width: 768px) {
+          .container--pasos__6 .parrafo h3 {
+            padding: 0.5em 1em;
+            font-size: 1em; } }
+      /* line 96, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+      .container--pasos__6 .parrafo p {
+        text-align: left;
+        color: #7d7d7d; }
+      /* line 100, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+      .container--pasos__6 .parrafo .consultar {
+        padding-bottom: 5em;
+        margin-top: 2em; }
+      /* line 104, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+      .container--pasos__6 .parrafo .btn {
+        padding: 0.8em 4em;
+        background: #d94041;
+        border-radius: 8px;
+        border: none;
+        font-size: 1.2em; }
+      /* line 111, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+      .container--pasos__6 .parrafo .btn:hover {
+        background: #c02627; }
+  @media screen and (min-width: 1025px) {
+    /* line 120, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--pasos__6 {
+      margin-top: 3em; }
+      /* line 123, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+      .container--pasos__6 .parrafo {
+        max-width: 60%;
+        padding: 0; }
+ }
+  /* line 130, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--pasos--flex {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    width: 100%;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+    /* line 137, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--pasos--flex .container-img-circular {
+      width: 250px;
+      height: 250px;
+      background: white;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-flex-flow: column nowrap;
+          -ms-flex-flow: column nowrap;
+              flex-flow: column nowrap; }
+    /* line 146, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--pasos--flex .img-circular {
+      width: 0px;
+      height: 0px;
+      border-radius: 50%;
+      border: 3px solid red;
+      background-position: 50%; }
+    /* line 157, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--pasos--flex__1, .container--pasos--flex__2, .container--pasos--flex__3, .container--pasos--flex__4 {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-flow: column nowrap;
+          -ms-flex-flow: column nowrap;
+              flex-flow: column nowrap;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      /* line 163, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+      .container--pasos--flex__1 h2, .container--pasos--flex__2 h2, .container--pasos--flex__3 h2, .container--pasos--flex__4 h2 {
+        padding-top: 0.7em;
+        color: #7d7d7d;
+        font-weight: 600; }
+    /* line 171, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--pasos--flex__1 .img-circular {
+      background-size: 100%; }
+    /* line 176, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--pasos--flex__2 .img-circular {
+      background-size: 155%; }
+    /* line 181, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--pasos--flex__3 .img-circular {
+      background-size: 122%;
+      background-position: 20%; }
+    /* line 187, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--pasos--flex__4 .img-circular {
+      background-position: 30% 100%; }
+    @media screen and (min-width: 768px) {
+      .container--pasos--flex {
+        -webkit-flex-flow: row wrap;
+            -ms-flex-flow: row wrap;
+                flex-flow: row wrap; }
+        /* line 199, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+        .container--pasos--flex__1, .container--pasos--flex__2, .container--pasos--flex__3, .container--pasos--flex__4 {
+          min-width: 250px;
+          width: 25%; } }
+
+/*
+*
+*
+*
+*
+*					FIN DE PASOS
+*
+*
+*
+*
+*/
+/*
+*
+*
+*
+*
+*					INFO
+*
+*
+*
+*
+*/
+/* line 236, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+.container--info {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em;
+  position: relative;
+  background: linear-gradient(to top, #d348be 0%, #d348be 63%, #ffffff 0%, #ffffff 66%, #ed145d 0%, #ed145d 100%); }
+  /* line 246, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--info__nicotina h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 0 0.5em 0; }
+  /* line 252, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--info__nicotina p {
+    color: white; }
+  /* line 255, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--info__nicotina .botonPlus {
+    font-size: 3rem;
+    background: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    left: 35%;
+    color: #e5536d; }
+  @media screen and (min-width: 480px) {
+    .container--info {
+      background: linear-gradient(to top, #d348be 0%, #d348be 71%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 73%, #ed145d 0%, #ed145d 100%); } }
+  @media screen and (min-width: 768px) {
+    .container--info {
+      -webkit-flex-flow: row nowrap;
+          -ms-flex-flow: row nowrap;
+              flex-flow: row nowrap;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-align-items: flex-start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      padding: 1em 1.5em;
+      background: linear-gradient(to top, #d348be 0%, #d348be 49%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 53%, #ed145d 0%, #ed145d 100%); }
+      /* line 282, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+      .container--info__nicotina, .container--info__figure {
+        width: 45%; }
+        /* line 285, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+        .container--info__nicotina .botonPlus, .container--info__figure .botonPlus {
+          top: -0.2em;
+          left: 7em; }
+        /* line 290, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+        .container--info__nicotina h2, .container--info__figure h2 {
+          text-align: left; }
+      /* line 295, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+      .container--info__figure img {
+        float: right; } }
+  @media screen and (min-width: 1025px) {
+    /* line 302, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--info__nicotina .botonPlus {
+      top: 0; }
+ }
+
+/*
+*
+*
+*
+*
+*					FIN DE INFO
+*
+*
+*
+*
+*/
+/*
+*
+*
+*
+*
+*					TABLA
+*
+*
+*
+*
+*/
+/* line 331, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+.container--tabla {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  position: relative;
+  background: #313133;
+  padding: 3em 0;
+  color: #ffffff; }
+  /* line 342, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--tabla h2 {
+    color: #ffffff;
+    padding: 0.5em;
+    border-bottom: 2px solid #d94041;
+    font-weight: 300; }
+  /* line 348, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--tabla p {
+    font-size: 1.2em; }
+  /* line 352, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--tabla .container-imagen {
+    position: relative;
+    overflow: hidden;
+    width: 100%; }
+    @media screen and (min-width: 1025px) {
+      .container--tabla .container-imagen {
+        width: auto; } }
+    /* line 361, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--tabla .container-imagen .imagen1 {
+      position: relative;
+      right: 0;
+      left: 5000px;
+      margin: 0 auto; }
+    /* line 367, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--tabla .container-imagen .imagen2 {
+      position: absolute;
+      right: 0;
+      left: -5000px;
+      margin: 0 auto;
+      top: 0; }
+    /* line 374, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--tabla .container-imagen .imagen3 {
+      position: absolute;
+      top: -500em; }
+
+/* line 387, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+.container--porcentaje {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  position: relative;
+  padding: 3em 0.8em; }
+  /* line 398, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--porcentaje h2 {
+    font-weight: 300;
+    font-size: 1.6em;
+    color: #7d7d7d;
+    background: #ffffff;
+    padding: 0.5em 1em;
+    border-bottom: 2px solid #d94041; }
+  /* line 406, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--porcentaje p {
+    text-align: center;
+    width: 80%; }
+  /* line 411, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--porcentaje--infografia {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    position: relative;
+    padding: 0 0.8em; }
+    @media screen and (min-width: 1025px) {
+      .container--porcentaje--infografia {
+        -webkit-flex-flow: row nowrap;
+            -ms-flex-flow: row nowrap;
+                flex-flow: row nowrap; } }
+    /* line 425, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--porcentaje--infografia .side {
+      text-align: center; }
+      @media screen and (min-width: 1025px) {
+        .container--porcentaje--infografia .side {
+          -webkit-transform: rotate(270deg);
+              -ms-transform: rotate(270deg);
+                  transform: rotate(270deg); } }
+      /* line 434, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+      .container--porcentaje--infografia .side p {
+        width: 155px; }
+    /* line 438, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--porcentaje--infografia .side--img {
+      width: 100%; }
+      @media screen and (min-width: 768px) {
+        .container--porcentaje--infografia .side--img {
+          -webkit-order: -1;
+              -ms-flex-order: -1;
+                  order: -1; } }
+      @media screen and (min-width: 1025px) {
+        .container--porcentaje--infografia .side--img {
+          -webkit-order: 1;
+              -ms-flex-order: 1;
+                  order: 1; } }
+    /* line 448, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--porcentaje--infografia .side--right {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-flow: column nowrap;
+          -ms-flex-flow: column nowrap;
+              flex-flow: column nowrap;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      @media screen and (min-width: 1025px) {
+        .container--porcentaje--infografia .side--right {
+          -webkit-order: 2;
+              -ms-flex-order: 2;
+                  order: 2; } }
+      /* line 458, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+      .container--porcentaje--infografia .side--right .gris {
+        width: 30px;
+        height: 30px;
+        background: #696465; }
+      /* line 464, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+      .container--porcentaje--infografia .side--right .rojo {
+        width: 30px;
+        height: 30px;
+        background: #e01c43; }
+  /* line 472, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--porcentaje .rectangulo {
+    background-color: #cecbcc;
+    min-height: 170px;
+    width: 100%;
+    margin-bottom: 0.5em;
+    padding: 0.5em 1em;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    background-repeat: no-repeat;
+    background-position: 97% 50%; }
+    /* line 485, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--porcentaje .rectangulo--porcentaje {
+      width: 90%;
+      min-height: 50px;
+      background: #908a8b;
+      margin: 0.5em;
+      color: white;
+      box-shadow: inset 2px 0 0 #e01c43;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-flow: row nowrap;
+          -ms-flex-flow: row nowrap;
+              flex-flow: row nowrap;
+      -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      padding-left: 2em;
+      transition: all 0.5s;
+      position: relative; }
+    /* line 501, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--porcentaje .rectangulo--porcentaje:nth-child(even) {
+      box-shadow: inset 2px 0 0 #696465; }
+
+/*
+*
+*
+*
+*
+*					TESTIMONIOS
+*
+*
+*
+*
+*/
+/* line 519, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+.container--testimonios {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  background: #817b72;
+  color: white;
+  padding: 1.5em; }
+  /* line 530, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--testimonios h2 {
+    font-weight: 300;
+    color: #ffffff;
+    padding: 0.5em 1em;
+    border-bottom: 2px solid #d94041;
+    font-weight: 300; }
+    @media screen and (min-width: 768px) {
+      .container--testimonios h2 {
+        position: relative; } }
+  /* line 542, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--testimonios p {
+    color: #ffffff;
+    font-weight: 300; }
+  /* line 546, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--testimonios h4 {
+    max-width: 80%; }
+  /* line 549, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--testimonios--max {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    width: 100%; }
+    @media screen and (min-width: 1025px) {
+      .container--testimonios--max {
+        -webkit-flex-flow: row nowrap;
+            -ms-flex-flow: row nowrap;
+                flex-flow: row nowrap;
+        -webkit-justify-content: space-around;
+            -ms-flex-pack: distribute;
+                justify-content: space-around; } }
+  /* line 563, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--testimonios__1, .container--testimonios__2, .container--testimonios__3 {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #555555;
+    width: 100%;
+    padding: 0 0.5em;
+    margin: 5.5em 0.2em 0.2em 0.2em;
+    border-radius: 15px;
+    position: relative;
+    width: 100%; }
+    /* line 576, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--testimonios__1 p, .container--testimonios__2 p, .container--testimonios__3 p {
+      padding: 0.8em;
+      color: white;
+      position: relative;
+      top: -3.8em; }
+    @media screen and (min-width: 480px) {
+      .container--testimonios__1, .container--testimonios__2, .container--testimonios__3 {
+        width: 80%; } }
+  /* line 590, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--testimonios__1--img, .container--testimonios__2--img, .container--testimonios__3--img {
+    position: relative;
+    top: -5em;
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    box-shadow: 10px 8px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: 50%; }
+  /* line 602, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--testimonios__1--img {
+    background-image: url(../img/testimonio2.jpg); }
+  /* line 606, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--testimonios__2--img {
+    background-image: url(../img/testimonio1.jpg);
+    background-size: 170%;
+    background-position: 30% 0%; }
+  /* line 611, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--testimonios__3--img {
+    background-image: url(../img/testimonio3.jpg); }
+
+/*
+*
+*
+*
+*
+*					FORMULARIO-FOOTER
+*
+*
+*
+*
+*/
+/* line 628, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+.container--formularioFooter {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #e4ba90; }
+  /* line 636, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--formularioFooter h2 {
+    color: #d94041;
+    margin-top: 2em;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: center;
+    border-bottom: 2px solid #d94041; }
+  /* line 646, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--formularioFooter h3 {
+    color: black;
+    font-weight: 600;
+    margin-top: 0.5em; }
+  /* line 651, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--formularioFooter p {
+    color: white;
+    padding-bottom: 2em;
+    font-size: 0.9em;
+    width: 80%;
+    text-align: center; }
+  @media screen and (min-width: 768px) {
+    /* line 660, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--formularioFooter h2 {
+      font-size: 2rem; }
+
+    /* line 663, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--formularioFooter h3 {
+      font-size: 2rem; }
+
+    /* line 666, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--formularioFooter p {
+      font-size: 1.2em; }
+ }
+  /* line 670, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .container--formularioFooter .form {
+    width: 95%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    /* line 679, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--formularioFooter .form .formulario {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-flex-flow: column nowrap;
+          -ms-flex-flow: column nowrap;
+              flex-flow: column nowrap;
+      width: 80%;
+      position: relative; }
+      @media screen and (min-width: 768px) {
+        .container--formularioFooter .form .formulario {
+          -webkit-flex-flow: row nowrap;
+              -ms-flex-flow: row nowrap;
+                  flex-flow: row nowrap; }
+          /* line 690, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+          .container--formularioFooter .form .formulario input {
+            margin: 1em; } }
+      /* line 694, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+      .container--formularioFooter .form .formulario input.ng-invalid.ng-dirty {
+        border: 2px solid #fa787e; }
+      /* line 697, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+      .container--formularioFooter .form .formulario input.ng-valid.ng-dirty {
+        border: 2px solid #78fa89; }
+      /* line 701, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+      .container--formularioFooter .form .formulario input {
+        width: 100%;
+        padding: 1em;
+        border-radius: 10px;
+        border: none;
+        margin: 1em;
+        position: relative; }
+        /* line 708, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+        .container--formularioFooter .form .formulario input:focus {
+          box-shadow: 2px 2px 10px lightblue, -2px -2px 10px lightblue; }
+    /* line 714, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+    .container--formularioFooter .form input[type=submit] {
+      padding: 0.7em;
+      width: 80%;
+      border-radius: 10px;
+      background: #d83a40;
+      color: white;
+      border: none;
+      margin: 2rem 0;
+      font-weight: 300;
+      font-size: 1.5em;
+      box-shadow: inset 0 0 0 green, inset 0 0 0 green;
+      transition: all 0.4s; }
+      /* line 728, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+      .container--formularioFooter .form input[type=submit]:hover {
+        box-shadow: inset 0 50px 0 green, inset 0 -50px 0 green;
+        color: black; }
+      @media screen and (min-width: 768px) {
+        .container--formularioFooter .form input[type=submit] {
+          width: 30%;
+          font-size: 1.2em; } }
+
+/*
+*
+*
+*
+*
+*					FOOTER
+*
+*
+*
+*
+*/
+/* line 757, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+footer {
+  width: 100%;
+  background: #242c2e;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap; }
+
+/* line 766, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+.footer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  width: 100%;
+  text-align: center;
+  padding: 2em; }
+  /* line 775, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .footer p {
+    width: 100%;
+    color: white;
+    font-size: 0.8em; }
+  /* line 781, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+  .footer a {
+    color: #c3c3c3; }
+  @media screen and (min-width: 768px) {
+    .footer {
+      -webkit-flex-flow: row nowrap;
+          -ms-flex-flow: row nowrap;
+              flex-flow: row nowrap;
+      max-width: 1200px;
+      height: auto; }
+      /* line 789, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+      .footer p {
+        width: 85%;
+        text-align: center;
+        padding-right: 7em;
+        font-size: 0.8em; } }
+
+/* line 798, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+.aqui {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center; }
+
+/* line 804, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+.expecial {
+  color: #006700;
+  font-size: 0.8em; }
+
+/* line 809, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+.btn-gracias {
+  background: #b32b9e;
+  padding: 0.5em 0.3em;
+  border-radius: 15px;
+  color: white;
+  font-weight: 700;
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
+  border: none; }
+  @media screen and (min-width: 480px) {
+    .btn-gracias {
+      padding: 0.5em 1.5em; } }
+
+/* line 822, Y:/diseno-web/DISEÑO_WEB/WEB/ultimas-versiones-online/BUSTO PERFECTO/a/scss/tema/main */
+.btn-llamar {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Busto Perfecto</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link href='http://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="fonts/stylesheet.css">
+</head>
+
+<body class="max-container" ng-app>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.4";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<!-- HEADER -->
+	<div class="cabecera">
+		<div class="cabecera--container">
+			<img class="logo" src="img/logo.svg" alt="">
+			<div class="fb-like" data-href="https://www.facebook.com/MundoNaturalHoy?fref=ts" data-layout="button_count"></div>
+		</div>
+
+	</div>
+	<div class="container--img">
+			<div class="content">
+				<h1>SENTITE<br>MÁS LINDA<br>QUE NUNCA</h1>
+			</div>
+	</div>
+	<!-- FIN  HEADER -->
+	<div class="container--formulario">
+		<h2 class="swich">LLAMÁ HOY AL:<br>(011) <span>3723-1929</span></h2>
+		<span class="btn-llamar"></span>
+		<div class="container--formulario__box">
+			<form method="post" id="formValid" name="formulario" ng-submit="formulario.$valid" action="form.php" class="container--formulario__box--flex" novalidate>
+				<h2>PROBÁ BUSTO PERFECTO</h2>
+				<h6>COMPLETÁ TUS DATOS Y TELÉFONO<br>PARA QUE TE LLAME UN ESPECIALISTA</h6>
+				<input type="name" ng-model="nombre" name="nombre" placeholder="Nombre y Apellido" required  ng-minlength="2">
+				<div class="error1">
+                    <ul>
+                        <li ng-show="formulario.nombre.$error.minlength">debe completar este campo </li>
+                    </ul>
+            	</div>
+				<input type="email" ng-model="email" name="email" placeholder="E-mail" required ng-pattern="/^([0-9a-zA-Z_]([-.\w]*[0-9a-zA-Z_.-])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})$/">
+				<div class="error1">
+                    <ul>
+                        <li ng-show="formulario.email.$error.pattern">debe colocar un mail valido </li>
+                    </ul>
+            	</div>
+				<input type="number" name="cod" ng-model="cod" placeholder="Cod. Área Ej.: (011)" required ng-maxlength="5" ng-minlength="2">
+				<div class="error1">
+                 <ul>
+                    <li ng-show="formulario.cod.$error.maxlength">el codigo es muy largo </li>
+                    <li ng-show="formulario.cod.$error.minlength">el codigo es muy corto </li>
+                 </ul>
+            	</div>
+				<input type="number" name="telefono" ng-model="telefono" placeholder="Teléfono" required ng-minlength="6"> 
+				<div class="error1">
+                    <ul>
+                        <li ng-show="formulario.telefono.$error.minlength">debe colocar un telefono valido </li>
+                    </ul>
+            	</div>
+				<button ng-disabled="formulario.$invalid">ENVIAR</button>
+			</form>
+		</div>
+	</div>
+	<div class="container">
+		<div class="container--pasos">
+			<div class="container--pasos__5">
+				<h2>BUSTO PERFECTO<span>®</span></h2>
+			</div>
+			<div class="container--pasos__6">
+				<div class="parrafo">
+					<h3>BUSTO PERFECTO<span>®</span> by Völker<span>®</span></h3>
+					<p>Es un cosmético con ingredientes obtenidos a partir de sustancias de origen natural que <b>estimula la adipogénesis del busto para lograr resultados favorables en poco tiempo.</b> De esta manera colabora para que la <b>mujer logre el busto que siempre soñó</b> de forma no invasiva.</p>
+					<p>Este novedoso producto brinda un <b>efecto de relleno y afirma la textura del busto.</b> Los ingredientes <b>penetran la piel, estimulan el tejido adiposo y logran un busto con más firmeza y mayor volumen.</b></p>
+					<p>El plan de acción se realiza en la privacidad y comodidad del hogar. Consiste en aplicar diariamente Busto Perfecto® en la zona indicada y realizar un suave masaje. Busto Perfecto® tiene una consistencia de gel transparente y sin perfume que, al ser aplicado <b>ofrece una sensación placentera porque no es grasoso ni queda pegajoso y permite vestirse un instante</b> después de que se absorbió.</p>
+					<br><br>
+					<div class="cabecera--container" style="margin : 0">
+						<img class="logo2" src="img/logo-bYn.svg" alt="">
+						<div class="fb-like" data-href="https://www.facebook.com/MundoNaturalHoy?fref=ts" data-layout="button_count"></div>
+					</div>
+					<br><br>
+					<div class="consultar">
+						<button id="btn" class="btn">consultar</button>
+					</div>
+				</div>
+				<div class="parrafoImg">
+					<img src="img/pack.jpg" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="container--tabla desde-tablet">
+			<h2>ESCOTE MÁS SEXY Y ATRACTIVO</h2>
+			<p>Fórmula contra la gravedad</p>
+			<div class="container-imagen">
+				<img class="imagen1" src="img/tabla.png" alt="">
+				<img class="imagen2" src="img/tabla2.png" alt="">
+				<img class="imagen3" src="img/tabla3.png" alt="">
+			</div>
+		</div>
+		<div class="container--porcentaje desde-tablet">
+			<h2>ESTUDIOS DE EFICACIA DE SU PRINCIPALES COMPONENTES</h2>
+			<p>Busto Perfecto, está desarrollada con sustancias de “alta efectividad comprobada” por numerosos estudios europeos, para darle a la mujer todo lo que necesita: <span style="color : red">belleza, seguridad y autoestima.</span> Siempre, conservando un aspecto sumamente natural.</p>
+			<div class="container--porcentaje--infografia">
+				<div class="side">
+					<p>Aumento del volúmen del pecho(%)</p>
+				</div>
+				<div class="side--img">
+					<div class="rectangulo" style="background-image:url(img/dia56.png)">
+						<div class="rectangulo--porcentaje bar-1"><span class="contador" data-count="67"></span>%
+						</div>
+						<div class="rectangulo--porcentaje bar-2"><span class="contador" data-count="56"></span>%
+						</div>
+					</div>
+					<div class="rectangulo" style="background-image:url(img/dia28.png)">
+						<div class="rectangulo--porcentaje bar-3"><span class="contador" data-count="43"></span>%
+						</div>
+						<div class="rectangulo--porcentaje bar-4"><span class="contador" data-count="31"></span>%
+						</div>
+					</div>
+					<div class="rectangulo" style="background-image:url(img/dia14.png)">
+						<div class="rectangulo--porcentaje bar-5"><span class="contador" data-count="21"></span>%
+						</div>
+						<div class="rectangulo--porcentaje bar-6"><span class="contador" data-count="12"></span>%
+						</div>
+					</div>
+				</div>
+				<div class="side--right">
+					<div class="gris"></div>
+					<p>Crema placebo</p>
+					<div class="rojo"></div>
+					<p>Crema con 2% adifyline</p>
+				</div>
+			</div>
+		</div>
+		<div class="container--testimonios">
+			<h2>¡MODELÁ TU SILUETA AHORA!</h2>
+			<p>Ellas ya lo hicieron</p>
+			<div class="container--testimonios--max">
+				<div class="container--testimonios__1">
+					<div class="container--testimonios__1--img" >
+					</div>
+					<p>“Siempre soñé con tener más lolas y de verdad que probé de todo. Intenté con ejercicios, masajes e infinidad de geles sin ningún resultado ¡hasta que probé Busto Perfecto!” Me dio confianza el aviso porque decía que tenía estudios de eficacia hechos en Europa y lo compré pensando que era el último de mis experimentos. Realmente estoy sorprendida con los resultados y me siento mucho más sexy!”<br><br>Vicky, 32 años.</p>
+				</div>
+				<div class="container--testimonios__2 desde-tablet">
+					<div class="container--testimonios__2--img">
+					</div>
+					<p>“Cuando era joven tenía un escote realmente llamativo. Pero después de la maternidad y sobre todo con los años, ya era sólo un recuerdo. Desde entonces no había vuelto a sentirme tan atractiva y segura ante un hombre. Las cirugías no son mi estilo así que tuve que resignarme. Hasta que me recomendaron esta crema. No quería hacerme ilusiones, y menos en tan poco tiempo. Sin embargo los resultados están a la vista.”<br><br>Gloria, 37años.</p>
+				</div>
+				<div class="container--testimonios__3 desde-tablet">
+					<div class="container--testimonios__3--img">
+					</div>
+					<p>“Al principio no creía en el producto. Tengo 25 años, pechos bastante chicos y como mis padres no me permitían operarme, decidí comprarlo. A las pocas semanas de uso mis pechos ya habían aumentado de tamaño. ¡INCREÍBLE! ¡Todavía estoy en SHOCK! ¡Amo mirarme al espejo, las miradas que recibo de todos los chicos en la Universidad y cuando camino por la calle!  ¡Ya quiero que llegue el verano! ¡Jamás pensé que podría tener estos resultados sin pasar por el quirófano y en tan poco tiempo!<br><br>Florencia, 25 años.</p>
+				</div>
+			</div>
+		</div>
+		<div class="container--formularioFooter desde-tablet">
+			<h2>PROBÁ BUSTO PERFECTO</h2>
+			<h3>LOS RESULTADOS SON SORPRENDENTES</h3>
+			<form method="post" id="formValid" action="form.php" class= "form" name="formulario2" ng-submit="formulario2.$valid" novalidate >
+				<div class="formulario">
+					<input type="text" placeholder="NOMBRE Y APELLIDO" name="nombre2" required  ng-model="nombre2" ng-minlength="2">
+					<div class="error">
+	                    <ul>
+	                        <li ng-if="formulario2.nombre2.$error.minlength">debe completar este campo </li>
+	                    </ul>
+                	</div>
+					<input type="email" name="email2" placeholder="E-MAIL" required ng-model="email2" ng-pattern="/^([0-9a-zA-Z_]([-.\w]*[0-9a-zA-Z_.-])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})$/">
+					<div class="error2">
+	                    <ul>
+	                        <li ng-if="formulario2.email2.$error.pattern">debe colocar un mail valido </li>
+	                    </ul>
+                	</div>
+				</div>
+				<div class="formulario">
+					<input type="number" name="cod2" placeholder="COD. ÁREA EJ.: (011)" required ng-model="cod2" ng-maxlength="5" ng-minlength="2">
+					<div class="error">
+                     <ul>
+                        <li ng-if="formulario2.cod2.$error.maxlength">el codigo es muy largo </li>
+                        <li ng-if="formulario2.cod2.$error.minlength">el codigo es muy corto </li>
+                     </ul>
+                	</div>
+					<input type="number" name="telefono2" placeholder="TELÉFONO" required ng-model="telefono2" ng-minlength="6">
+					<div class="error2">
+	                    <ul>
+	                        <li ng-if="formulario2.telefono2.$error.minlength">debe colocar un telefono valido </li>
+	                    </ul>
+                	</div>
+				</div>
+				<input type="submit" value="OBTENELO AHORA" ng-disabled="formulario2.$invalid">
+			</form>
+		</div>
+	</div>
+	<footer>
+		<div class="footer">
+			<p>Ante la menor duda consulte a su médico y/o farmacéutico. <a href="politicasdeprivacidad.html">TÉRMINOS, CONDICIONES Y POLÍTICAS DE PRIVACIDAD</a> Busto perfecto Copyright © 2015 - All Rights Reserved - Todos los derechos Reservados</p>
+		</div>
+			
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+	</script>
+	<script src="//cdn.jsdelivr.net/jquery.shadow-animation/1/mainfile"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+</body>
+</html>

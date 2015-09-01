@@ -1,0 +1,139 @@
+.max-container{
+	width:100vw;
+	min-height:100vh;
+	display:flex;
+	flex-flow: column nowrap;
+	justify-content:flex-start;
+	align-items:center;
+	overflow-x:hidden;
+	background: #ffffff; 
+	font-family: Arial, sans-serif;
+}
+.content
+{
+	margin:0 auto;
+	text-align:center;
+	z-index:10;
+	width:100%;
+	position:relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+
+	h1{
+		font-size: 3em;
+		font-family: 'flanders_art_sansbold', Arial, sans-serif; 
+		color: #ffffff;
+		text-shadow: 1px 1px 10px black, -1px -1px 10px black;
+		@include desde(web) {
+			text-shadow: none;
+			font-size: 4rem;
+			color: #636363;
+
+		}
+	}
+}
+
+.container{
+	max-width: 1200px;
+	width:100%;
+	position:relative;
+}
+.container--img{
+	width:100%;
+	position:relative;           
+  	background-size: 100%;
+  	background-position:  35% 0%;
+  	background-attachment: fixed;
+	background-image: url(../img/header1.jpg);
+	background-repeat: no-repeat;
+	img{
+		max-width: 100% !important; 
+		height: auto;
+	}
+	
+	@include desde(movil) {
+		
+	}
+
+	@include desde(tablet) {
+		background-image: url(../img/header2.jpg);
+		background-size: cover;
+	}
+	@include desde (web) {
+		background-image: url(../img/headerX.jpg);
+		background-size: cover;
+	}
+
+}
+
+.cabecera{
+	width:100%;
+	height:80px;
+	text-align:center;
+	background: #242c2e;
+	position:fixed;
+	top:0;
+	z-index:9999;
+	left:0;
+
+	&--container{
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom:0;
+		margin:auto ;
+		max-width: 1179px;
+		position:relative;
+		display: flex;
+		justify-content: flex-start;
+		flex-flow: row nowrap;
+		align-items: center;
+
+		.fb-like{
+			position:relative;
+			left: .2em;
+			top: 0;
+			bottom:0;
+
+			@include desde(web) {
+				left: 2rem;
+			}
+		}
+
+		.logo,
+		.logo2{
+			height: 80px;
+			width: auto;
+			align-self:center;
+			background:#d83a40;
+			padding:.8em;
+			box-shadow: inset 0px 10px .8em #9d1a1a;
+		}
+		.logo2{
+			background:none;
+			box-shadow:none;
+			padding:0;
+		}
+
+	}
+}
+.cabecera h2{
+	color: #656666;
+	text-decoration:underline;
+	font-weight: 600;
+
+}
+.este-icon{
+	background: white ;
+	color: #242c2e;
+	padding: 0 .2em;
+	border-radius: 6px;
+	font-size: 1.2em;
+	margin:0 .6em;
+
+	&:hover{
+		background: #656666;
+	}
+}
